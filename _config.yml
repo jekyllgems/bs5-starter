@@ -1,0 +1,109 @@
+repository : jekyllgems/bs5-starter
+github     : [metadata]
+
+# This is a bs5-starter template for Jekyll. 
+
+# If you need any help feel free to reach out on discord or email 
+# me and I will help in any way you need. If you want a custom theme
+# or plugin built you can hop on discord and we can discuss it.
+#
+# =============
+# SOCIAL LINKS 
+# =============
+#
+# This section handles your social network links displayed across
+# your site in liquid tags as site.social.NAME feel free to reach
+# out to me using these if you need any help.
+
+social:
+  twitter          : jekyllcoder
+  github           : leatheresque
+  email            : jekyllcoder@gmail.com
+  discord          : leatheresque#3820
+  support_server   : https://discord.gg/8uc5FyPdHk
+
+# ==========
+# SITE TITLE
+# ==========
+#
+# This is the title of your website for example, "The Moo York Times" :)
+
+title: Starter Template
+
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to your new site, replace this description
+
+# =======
+# BASEURL
+# =======
+#
+# This is the subpath of your site, e.g. /blog if you want users to 
+# access your site at https://example.com/blog
+#
+# If you are using a gh-pages site this will be empty if your site 
+# is on https://username.github.io if your repo using this theme is 
+# named "foobar" then change this to /foobar and when you serve
+# it using the pages setting it will be live at
+#
+# https://username.github.io/foobar 
+
+baseurl       : ""
+
+# ===
+# URL
+# ===
+#
+# This is the base hostname & protocol for your site, as you see 
+# I use https://jekyllgems.github.io because this is a template 
+# and served live on my gh-pages site.
+#
+# Use localhost for local development
+# http://localhost:4000
+
+
+url            : "http://localhost:4000"
+ 
+# =================
+# EXCERPT_SEPARATOR
+# =================
+#
+# This is used in your blog posts, you can see an example in any 
+# of the example blog posts included in this theme. It functions
+# to trim your posts when displaying them so it doesnt show the
+# entire post like on the front page. Feel free to change where
+# the excerpt ends.
+
+excerpt_separator: <!--more-->
+
+# ==============
+# BUILD SETTINGS
+# ==============
+#
+# These are build settings needed for when you run "jekyll serve"
+# commands. You can change these, but be careful because they can
+# cause your site to break.
+#
+# COLLECTIONS
+# ===========
+#
+# Collections are Jekylls way to handle things like tags, categories,
+# authors. Any type of data you can iterate over. Here is how you add
+# categories to your blog. Uncomment this to have it assign links for
+# your categories
+# 
+# collections:
+#   categories: # This will create your category links
+#     output: true
+#     permalink: /:categories/:title/
+#
+# =======
+# PLUGINS
+# =======
+#
+# This is just one of the plugins you can use with jekyll
+# you can find more useful plugins I have created at: 
+# 
+# https://github.com/jekyllgems/plugins
+
+plugins:
+  - jekyll-feed
