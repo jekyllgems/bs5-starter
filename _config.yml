@@ -47,7 +47,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #
 # https://username.github.io/foobar 
 
-baseurl       : ""
+baseurl       : "/bs5-starter"
 
 # ===
 # URL
@@ -61,7 +61,7 @@ baseurl       : ""
 # http://localhost:4000
 
 
-url            : "http://localhost:4000"
+url            : "https://jekyllgems.github.io"
  
 # =================
 # EXCERPT_SEPARATOR
